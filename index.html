@@ -127,39 +127,6 @@
       overflow: hidden;
       box-shadow: 0 18px 34px rgba(12,28,58,0.22);
     }
-    .payout-summary {
-      padding: 10px 10px 12px;
-      background: #fff8e8;
-      border-bottom: 1px solid rgba(16,35,63,0.22);
-    }
-    .payout-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      padding: 5px 10px;
-      color: #111827;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 15px;
-      line-height: 1.1;
-    }
-    .payout-row-primary {
-      min-height: 54px;
-      margin-bottom: 7px;
-      padding: 10px;
-      border-radius: 6px;
-      background: #f7c65a;
-      border: 1px solid rgba(17,24,39,0.16);
-      font-size: 22px;
-      font-weight: 800;
-    }
-    .payout-row:not(.payout-row-primary) span {
-      font-weight: 500;
-    }
-    .payout-row strong {
-      font-size: inherit;
-      white-space: nowrap;
-    }
     .prize-table {
       width: 100%;
       min-width: 0;
@@ -290,7 +257,7 @@
         <div class="sub">Best 5 of 10 each round. Updated automatically from ESPN scores.</div>
         <div class="status-bar">
           <span class="status-dot"></span>
-          <span class="status-meta">Last updated: 2026-06-22 09:03:04 GMT Summer Time</span>
+          <span class="status-meta">Last updated: 2026-06-22 09:05:40 GMT Summer Time</span>
         </div>
         <div class="hero-tools">
           <input id="leaderboard-search" class="search-input" type="search" placeholder="Search entrant name...">
@@ -298,30 +265,6 @@
         </div>
       </div>
       <aside class="prize-card" aria-label="Prize winners">
-        <div class="payout-summary" aria-label="Overall payout summary">
-          <div class="payout-row payout-row-primary">
-  <span>Tied 1st</span>
-  <strong>£635</strong>
-</div><div class="payout-row">
-  <span>3rd Overall</span>
-  <strong>£100</strong>
-</div><div class="payout-row">
-  <span>Wooden Spoon</span>
-  <strong>£15</strong>
-</div><div class="payout-row">
-  <span>Round 1 Winner</span>
-  <strong>£30</strong>
-</div><div class="payout-row">
-  <span>Round 2 Winner</span>
-  <strong>£30</strong>
-</div><div class="payout-row">
-  <span>Round 3 Winner</span>
-  <strong>£30</strong>
-</div><div class="payout-row">
-  <span>Round 4 Winner</span>
-  <strong>£30</strong>
-</div>
-        </div>
         <table class="prize-table">
           <thead>
             <tr>
@@ -335,13 +278,9 @@
           </thead>
           <tbody>
             <tr class="prize-row prize-rank-1">
-  <td>1st Overall</td>
-  <td>£435</td>
-  <td>Tied 1st R.Berger &amp; S.Robertson</td>
-</tr><tr class="prize-row prize-rank-2">
-  <td>2nd Overall</td>
-  <td>£200</td>
-  <td>Tied 1st R.Berger &amp; S.Robertson</td>
+  <td>Tied 1st</td>
+  <td>£635</td>
+  <td>R.Berger &amp; S.Robertson</td>
 </tr><tr class="prize-row prize-rank-3">
   <td>3rd Overall</td>
   <td>£100</td>
@@ -983,7 +922,7 @@
         </table>
       </div>
     </section>
-    <div class="footer">Generated at 2026-06-22 09:03:04 GMT Summer Time. Source: https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260618</div>
+    <div class="footer">Generated at 2026-06-22 09:05:40 GMT Summer Time. Source: https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260618</div>
   </div>
   <script>
     const searchInput = document.getElementById('leaderboard-search');
